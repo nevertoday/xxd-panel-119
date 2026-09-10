@@ -40,6 +40,15 @@ When a photograph contains a memorable person, object or gesture but a crowded b
 - Keeps comparison canvases to exactly two 50:50 regions without headers, footers or a third band.
 - Generates each result directly from its current original in one pass, avoiding repeated stylisation.
 
+## Usage tips
+
+- **Start with one clear photo:** choose a source whose subject, action, and relationships are easy to recognize before choosing the delivery format.
+- **Join the parameters in one sentence:** say “top-bottom / left-right / design-only + 16:9 / 3:4 / phone wallpaper”; you can also name desktop, tablet, or smartwatch sizes.
+- **State what must stay:** identify the people, objects, actions, relationships, and copy to preserve, while leaving room for the style to design the layout.
+- **Choose a text mode:** let the model write from the image, lock exact wording with `--text exact --copy`, or remove text completely with `--text none`.
+- **Clarify reality and design regions:** for top-bottom or left-right, say which region keeps the photograph and which region is redesigned; for design-only and wallpapers, say that the whole canvas is redesigned.
+- **Test one image before batching:** confirm mode, ratio, text, and language on one source, then reuse the settings for a folder; change one variable per iteration.
+
 ## Original prompt · five languages
 
 [简体中文](references/original-prompt/zh-CN.md) · [English](references/original-prompt/en.md) · [日本語](references/original-prompt/ja.md) · [한국어](references/original-prompt/ko.md) · [العربية](references/original-prompt/ar.md)
@@ -56,19 +65,6 @@ The Chinese file preserves the user's wording verbatim and is the sole runtime c
 | Will fabric fill the frame? | A small, refined focal point lets negative space, fabric edges and stitches establish rhythm. |
 | Will colours feel dreary? | 2–4 warm source-derived colours are moderately brightened, purified and cleared of greyness. |
 | Can delivery direction change? | Four modes and multiple sizes remap delivery structure without changing aesthetics. |
-
-## Transformation logic
-
-Identify subject and narrative relationships → remove most background → rebuild with a few large fabric pieces and simple silhouettes → add layering, raw edges and sparse stitches → reduce the focal point and compose with abundant negative space → quietly place a few words.
-
-## Recognisable finished traits
-
-- The photograph preserves identity, structure, pose, natural light and colour atmosphere with light grading only; extend surroundings without stretching the subject.
-- The design retains only essential information, without tracing every object or copying the full scene.
-- Cotton-linen fibres, fabric texture, irregular cutting, slight misalignment, raw-edge appliqué and sparse embroidery create real tactility.
-- The subject may be off-centre, edge-adjacent, suspended or partly cropped; abundant negative space actively composes the image.
-- 2–4 source-derived colours stay lively, soft and approachable rather than muddy, aged or dreary.
-- Very little text grows from subject, place, action, emotion or metaphor and sits quietly in negative space or beside the subject; no fixed font or language.
 
 ## Four output modes
 
