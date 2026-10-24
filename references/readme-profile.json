@@ -1,0 +1,84 @@
+{
+  "skill_description": "XXD Panel 119｜Hand-Sewn Textile & Negative Space Chronicle: cuts a photo down to its most recognisable subject, outline and pose and re-stages it as a hand-sewn textile collage with extreme whitespace — most of the background removed, the subject compressed into one smaller, refined focal point made of a few large fabric pieces, simple silhouettes, layered cloth, raw-edged appliqué and a little embroidery, with cotton and linen fibres, irregular cuts, slight misalignment and visible hand stitches, placed off-centre, against an edge or floating so the open space does most of the work, two to four warm, lively colours from the photo brightened and cleaned, and a few quiet words in any language. Outputs PNG top-bottom or left-right comparisons, design-only images, or phone/tablet/desktop/watch wallpapers, from one photo or a folder. Use when the user invokes xxd-panel-119 or asks for minimal appliqué, stitched fabric collage with lots of negative space or textile art from a photo.",
+  "short_description": "手缝布艺留白志：把照片删到只剩一个小布艺主体，用手缝针迹和超大留白重新导演",
+  "zh-CN": {
+    "name": "手缝布艺留白志",
+    "tagline": "让少数几块布片和针迹，留下照片里最温暖的那一点记忆。",
+    "look": "绝大多数背景和无关细节都被删掉，只留最好认的主体、轮廓和姿态，用几块大布片、简洁剪影、层叠布料、毛边贴布和少量刺绣缝出来，看得到棉麻纤维、不规则剪裁、轻微错位和手缝针迹。主体被压得比原照片更小、更精炼，偏心、贴边或悬在画面里，大片空白承担了大部分构图，即使原图构图普通也会被重新安排。布料颜色只取照片里二到四种最有生活温度的颜色，提亮去灰，明快温暖。文字只有几个字或一短句，安静放在留白或主体边上。",
+    "traits": ["大块布片", "贴布绣", "毛边针脚", "棉麻触感", "鲜暖照片取色", "小主体超大留白"],
+    "good": [
+      "主体明确的人物或物件照：抱着玩偶的孩子、一只帆布包、一杯热饮",
+      "旅行或日常里想留作纪念的东西：一顶草帽、一辆单车、一棵院子里的树",
+      "构图普通、背景杂乱，但有一个值得留下的主体的照片"
+    ],
+    "poor": [
+      "必须保留完整场景或多个主体的照片：街景、合影、展会",
+      "细节密集、需要精确还原的图：机械、文字、建筑立面",
+      "想要满版布艺、复杂刺绣、卡通或 3D 效果的需求"
+    ]
+  },
+  "en": {
+    "name": "Hand-Sewn Textile & Negative Space Chronicle",
+    "tagline": "Lets a few pieces of fabric and some stitches carry the warmest memory in a photo.",
+    "look": "Almost all of the background and stray detail is removed, leaving only the most recognisable subject, outline and pose, sewn from a few large fabric pieces, simple silhouettes, layered cloth, raw-edged appliqué and a little embroidery, with cotton and linen fibres, uneven cuts, slight misalignment and hand stitches on show. The subject is pressed smaller and more refined than in the photo, set off-centre, against an edge or floating, and the wide open space does most of the composing; even an ordinary photo is re-staged this way. The fabric colours are just two to four of the photo's warmest colours, brightened and cleaned up. Text is only a few words or a short line, resting quietly in the space or by the subject.",
+    "traits": ["Large fabric pieces", "Appliqué", "Raw edges and stitches", "Cotton and linen feel", "Warm photo colours", "Tiny subject, vast whitespace"],
+    "good": [
+      "People or objects with a clear subject: a child holding a soft toy, a canvas bag, a hot drink",
+      "Travel or everyday keepsakes: a straw hat, a bicycle, a tree in the yard",
+      "Photos with ordinary framing or a messy background but one subject worth keeping"
+    ],
+    "poor": [
+      "Photos where the whole scene or several subjects must stay: street views, group photos, trade fairs",
+      "Detail-heavy images that need exact reproduction: machinery, text, building façades",
+      "Requests for wall-to-wall fabric, intricate embroidery, cartoons or 3D"
+    ]
+  },
+  "ja": {
+    "name": "手縫い布と余白の記録",
+    "tagline": "数枚の布と針目に、写真のいちばん温かな記憶を託します。",
+    "look": "背景や余計な細部はほとんど省き、いちばんわかりやすい主役と輪郭、姿勢だけを残します。それを数枚の大きな布片、シンプルなシルエット、重ねた布、切りっぱなしのアップリケ、少しの刺繍で縫い表し、綿や麻の繊維、不揃いな裁ち方、わずかなずれ、手縫いの針目が見えます。主役は元の写真より小さく洗練された形に絞られ、中心を外したり端に寄せたり浮かせたりして、構図の大部分は広い余白が担います。ありふれた写真もこうして組み直されます。布の色は写真の中で温かみのある二〜四色だけを、明るく澄ませて使います。文字は数語か短い一行だけで、余白や主役のそばに静かに置かれます。",
+    "traits": ["大きな布片", "アップリケ", "切りっぱなしの縁と針目", "綿と麻の手ざわり", "温かな写真の色", "小さな主役と大きな余白"],
+    "good": [
+      "主役がはっきりした人物や物の写真：ぬいぐるみを抱く子ども、帆布のバッグ、温かい飲み物",
+      "旅や日常で記念に残したい物：麦わら帽子、自転車、庭の木",
+      "構図はふつうで背景も散らかっているけれど、残したい主役がひとついる写真"
+    ],
+    "poor": [
+      "場面全体や複数の主役を残す必要がある写真：街並み、集合写真、展示会",
+      "細部が多く正確な再現が必要な画像：機械、文字、建物のファサード",
+      "画面いっぱいの布、緻密な刺繍、カートゥーン、3D を求める場合"
+    ]
+  },
+  "ko": {
+    "name": "손바느질 직물과 여백 기록",
+    "tagline": "천 몇 조각과 바늘땀에 사진 속 가장 따뜻한 기억을 담습니다.",
+    "look": "배경과 군더더기 세부는 거의 다 지우고, 가장 알아보기 쉬운 주인공과 윤곽, 자세만 남깁니다. 이를 큰 천 조각 몇 개, 단순한 실루엣, 겹친 천, 올이 풀린 아플리케, 약간의 자수로 꿰매며, 면과 리넨 섬유, 고르지 않은 재단, 살짝 어긋남, 손바느질 땀이 드러납니다. 주인공은 원래 사진보다 더 작고 정제된 형태로 압축되어 중심에서 비켜나거나 가장자리에 붙거나 떠 있고, 구도의 대부분은 넓은 여백이 맡습니다. 평범한 사진도 이렇게 다시 연출됩니다. 천의 색은 사진에서 가장 따뜻한 두 가지에서 네 가지 색만 골라 밝고 맑게 다듬습니다. 글자는 몇 단어나 짧은 한 줄뿐이고, 여백이나 주인공 옆에 조용히 놓입니다.",
+    "traits": ["큰 천 조각", "아플리케", "올 풀린 가장자리와 바늘땀", "면·리넨 촉감", "따뜻한 사진 색", "작은 주인공과 넓은 여백"],
+    "good": [
+      "주인공이 분명한 인물이나 사물 사진: 인형을 안은 아이, 캔버스 가방, 따뜻한 음료",
+      "여행이나 일상에서 기념으로 남기고 싶은 것: 밀짚모자, 자전거, 마당의 나무",
+      "구도는 평범하고 배경도 어수선하지만 남기고 싶은 주인공 하나가 있는 사진"
+    ],
+    "poor": [
+      "장면 전체나 여러 주인공을 남겨야 하는 사진: 거리 풍경, 단체 사진, 전시장",
+      "세부가 많아 정확한 재현이 필요한 이미지: 기계, 글자, 건물 입면",
+      "화면을 꽉 채운 천, 정교한 자수, 카툰, 3D를 원하는 경우"
+    ]
+  },
+  "ar": {
+    "name": "سجلّ النسيج المخيط يدوياً والفراغ",
+    "tagline": "يترك لبضع قطع قماش وبعض الغرز أن تحمل أدفأ ذكرى في الصورة.",
+    "look": "تُحذف الخلفية والتفاصيل الزائدة كلها تقريباً، ولا يبقى إلا أوضح عنصر ومحيطه ووضعيته، مخيطاً من بضع قطع قماش كبيرة وظلال بسيطة وطبقات قماش وتطريز تطبيقي بحواف غير مثنية وقليل من التطريز، فتظهر ألياف القطن والكتان والقص غير المنتظم والانزياح الخفيف وغرز اليد. يُضغط العنصر أصغر وأنقى مما هو في الصورة، منزاحاً عن المركز أو ملاصقاً لحافة أو طافياً، ويتولى الفراغ الواسع معظم التكوين؛ وحتى الصورة العادية يُعاد إخراجها على هذا النحو. ألوان القماش اثنان إلى أربعة فقط من أدفأ ألوان الصورة، مفتّحة ومنقّاة. النص بضع كلمات أو سطر قصير فقط، يستقر بهدوء في الفراغ أو قرب العنصر.",
+    "traits": ["قطع قماش كبيرة", "تطريز تطبيقي", "حواف غير مثنية وغرز", "ملمس القطن والكتان", "ألوان دافئة من الصورة", "عنصر صغير وفراغ شاسع"],
+    "good": [
+      "صور أشخاص أو أشياء بعنصر واضح: طفل يحتضن دمية، حقيبة قماشية، مشروب ساخن",
+      "تذكارات من السفر أو الحياة اليومية: قبعة قش، دراجة، شجرة في الفناء",
+      "صور بتأطير عادي أو خلفية فوضوية لكن فيها عنصر واحد يستحق البقاء"
+    ],
+    "poor": [
+      "صور يجب أن يبقى فيها المشهد كاملاً أو عدة عناصر: مناظر الشوارع، الصور الجماعية، المعارض",
+      "صور كثيرة التفاصيل تحتاج إلى نقل دقيق: الآلات، النصوص، واجهات المباني",
+      "طلب قماش يملأ المساحة كلها أو تطريز معقد أو كرتون أو ثلاثي الأبعاد"
+    ]
+  }
+}

@@ -2,112 +2,189 @@
 
 # XXD Panel 119｜手縫い布と余白の記録
 
-少数の布片と針目に、写真の温かな記憶を託す。
+**数枚の布と針目に、写真のいちばん温かな記憶を託します。**
 
 <a href="README.md">简体中文</a> · <a href="README.en.md">English</a> · <strong>日本語</strong> · <a href="README.ko.md">한국어</a> · <a href="README.ar.md">العربية</a>
 
 </div>
 
-## 16:9 左右の作例
-
-独立した4点の素材による 16:9 完成キャンバス。左が現実写真、右が本 Panel のデザイン、厳密に 50:50。
-
 <table>
   <tr>
-    <td width="50%"><img src="./assets/examples/sample-05.png" alt="XXD Panel 119 Sample 5"></td>
-    <td width="50%"><img src="./assets/examples/sample-06.png" alt="XXD Panel 119 Sample 6"></td>
-  </tr>
-  <tr>
-    <td width="50%"><img src="./assets/examples/sample-07.png" alt="XXD Panel 119 Sample 7"></td>
-    <td width="50%"><img src="./assets/examples/sample-08.png" alt="XXD Panel 119 Sample 8"></td>
+    <td width="50%"><img src="./assets/examples/sample-09.png" alt="XXD Panel 119"></td>
+    <td width="50%"><img src="./assets/examples/sample-10.png" alt="XXD Panel 119"></td>
   </tr>
 </table>
 
-## 3:4 上下の作例
+<p align="center"><sub>上が元の写真、下がこのスタイルで描き直したものです。</sub></p>
 
-16:9 組とは別の独立した4点で、3:4 上下の完成キャンバスを生成。上が現実写真、下がデザイン、厳密に 50:50。
+## これは何か
 
-<table>
-  <tr>
-    <td width="50%"><img src="./assets/examples/sample-09.png" alt="XXD Panel 119 additional top-bottom sample 1"></td>
-    <td width="50%"><img src="./assets/examples/sample-10.png" alt="XXD Panel 119 additional top-bottom sample 2"></td>
-  </tr>
-  <tr>
-    <td width="50%"><img src="./assets/examples/sample-11.png" alt="XXD Panel 119 additional top-bottom sample 3"></td>
-    <td width="50%"><img src="./assets/examples/sample-12.png" alt="XXD Panel 119 additional top-bottom sample 4"></td>
-  </tr>
-</table>
+Claude Code や Codex などの AI エージェント向け Skill です。写真を 1 枚渡すと、Panel 119 の原文プロンプトに沿って PNG の完成作品を描きます。
 
+- **どんな絵になるか：** 背景や余計な細部はほとんど省き、いちばんわかりやすい主役と輪郭、姿勢だけを残します。それを数枚の大きな布片、シンプルなシルエット、重ねた布、切りっぱなしのアップリケ、少しの刺繍で縫い表し、綿や麻の繊維、不揃いな裁ち方、わずかなずれ、手縫いの針目が見えます。主役は元の写真より小さく洗練された形に絞られ、中心を外したり端に寄せたり浮かせたりして、構図の大部分は広い余白が担います。ありふれた写真もこうして組み直されます。布の色は写真の中で温かみのある二〜四色だけを、明るく澄ませて使います。文字は数語か短い一行だけで、余白や主役のそばに静かに置かれます。
+- **キーワード：** 大きな布片 · アップリケ · 切りっぱなしの縁と針目 · 綿と麻の手ざわり · 温かな写真の色 · 小さな主役と大きな余白
+- **作れるもの：** 上下比較（上に写真、下にデザイン）、左右比較、デザインのみ、またはスマホ／タブレット／PC／ウォッチの壁紙セット。複数選択でき、比率やピクセル数も自由です。
+- **これは違う：** フィルターでもテンプレートでもありません。毎回あなたの写真から描き直し、写真 1 枚ごとに独立したタスクです。
 
-## 向いている場面と解決する課題
+## 3 ステップで始める
 
-印象的な人物、物、動作を残したいのに背景が混み合う写真を、**Panel 119** は手縫いのテキスタイル・コラージュへ凝縮します。少数の大きな布片、切りっぱなしのアップリケ、少量の刺繍で小さな焦点を作り、非常に大きな余白が繊維と針目を引き立てます。
-
-### こんな場合に
-
-- 人物、日常の物、旅の記憶の同一性を残し、温かい布の手触りを加えたい。
-- 主体、輪郭、構造、姿勢、物語上の関係だけを抽出し、一つずつ描き写したくない。
-- 生き生きと柔らかな2–4色の布と控えめな編集文を組み合わせたい。
-- 上下、左右、デザインのみ、複数サイズ、4端末壁紙、フォルダ一括で出力したい。
-
-### 解決すること
-
-- 背景と無関係な細部の大半を取り除き、情報過多を防ぎます。
-- 少数の大きな布片と手縫いの針目で識別性を作り、安っぽい手芸や定型コラージュを避けます。
-- 比較画面を厳密な50:50の二領域だけにし、タイトル帯、下帯、第三領域を作りません。
-- 毎回現在の原画像から一度で生成し、繰り返しのスタイル変換を避けます。
-
-## 使い方のコツ
-
-- **まず一枚の見やすい写真から始める：** 主体・動作・関係が分かる画像を選んでから、出力形式と比率を決めます。
-- **パラメータを一文でつなぐ：** 「上下 / 左右 / デザインのみ + 16:9 / 3:4 / スマホ壁紙」のように指定し、PC・タブレット・スマートウォッチのサイズも追加できます。
-- **残したい内容を明示する：** 人物、物、動作、関係、文字を指定し、レイアウトを細かく縛りすぎずスタイルに任せます。
-- **文字の方法を選ぶ：** 画像から自動生成、`--text exact --copy` で逐字固定、または `--text none` で文字なしにできます。
-- **写真領域とデザイン領域を伝える：** 上下・左右では写真を残す側と再設計する側を指定し、デザインのみ・壁紙では全画面を再設計すると伝えます。
-- **一枚で試してから一括処理する：** モード、比率、文字、言語を一枚で確認し、同じ設定をフォルダに適用します。比較しやすいよう一度に一つだけ変更します。
-
-## はじめに
+**1. インストール。** Claude Code、Codex など Skills 対応のエージェントで使えます：
 
 ```bash
-git clone https://github.com/nevertoday/xxd-panel-119.git
 npx skills add https://github.com/nevertoday/xxd-panel-119 --skill xxd-panel-119
 ```
 
-インストール後に Agent セッションを再起動し、`$xxd-panel-119` を呼び出します。ユーザー単位の Codex には `--global --agent codex --yes` を追加できます。
+インストール後、エージェントのセッションを開き直してください。このリポジトリを `git clone` して `~/.claude/skills/xxd-panel-119` または `~/.codex/skills/xxd-panel-119` にリンクしても使えます。
+
+**2. エージェントが画像を生成できるか確認。** この Skill 自体は画像モデルを持たず、エージェントの画像生成（GPT Image 2 推奨）を使います。
+
+- Codex は内蔵の画像生成が有効ならそのまま使えます。
+- Claude Code など内蔵の画像生成がないエージェントは、OpenAI 互換の画像 API が必要です。5 分ほどで設定できます：[画像生成の設定](#画像生成の設定)。
+
+わからなければそのまま試してください。生成できない場合は、作業を始める前に Skill が止まって知らせます。
+
+**3. 写真を送って、ひとこと：**
+
+> xxd-panel-119 でこの写真を 3:4 の上下比較ポスターにして、日本語のタイトルを付けて。
+
+指示がそろっていればすぐ生成し、足りない点（レイアウト、比率、文字）は 1〜2 問ほど質問します。完成した PNG は `~/Desktop/xxd/xxd-panel-119/` の新しいフォルダに保存されます。
+
+## 向いている写真
+
+**向いている**
+
+- 主役がはっきりした人物や物の写真：ぬいぐるみを抱く子ども、帆布のバッグ、温かい飲み物
+- 旅や日常で記念に残したい物：麦わら帽子、自転車、庭の木
+- 構図はふつうで背景も散らかっているけれど、残したい主役がひとついる写真
+
+**あまり向いていない**
+
+- 場面全体や複数の主役を残す必要がある写真：街並み、集合写真、展示会
+- 細部が多く正確な再現が必要な画像：機械、文字、建物のファサード
+- 画面いっぱいの布、緻密な刺繍、カートゥーン、3D を求める場合
+
+## サンプル
+
+下の画像はすべて、この Skill が写真 1 枚から作った完成作品です。上下比較と左右比較では別の写真を使っています。
+
+### 上下比較：上が写真、下がデザイン
+
+<table>
+  <tr>
+    <td width="50%"><img src="./assets/examples/sample-09.png" alt="XXD Panel 119"></td>
+    <td width="50%"><img src="./assets/examples/sample-10.png" alt="XXD Panel 119"></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="./assets/examples/sample-11.png" alt="XXD Panel 119"></td>
+    <td width="50%"><img src="./assets/examples/sample-12.png" alt="XXD Panel 119"></td>
+  </tr>
+</table>
+
+### 左右比較：左が写真、右がデザイン
+
+<table>
+  <tr>
+    <td width="50%"><img src="./assets/examples/sample-05.png" alt="XXD Panel 119"></td>
+    <td width="50%"><img src="./assets/examples/sample-06.png" alt="XXD Panel 119"></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="./assets/examples/sample-07.png" alt="XXD Panel 119"></td>
+    <td width="50%"><img src="./assets/examples/sample-08.png" alt="XXD Panel 119"></td>
+  </tr>
+</table>
+
+## こう言えば OK
+
+パラメータを覚える必要はありません。そのまま伝えてください：
+
+| やりたいこと | こう言う |
+|---|---|
+| 上下比較 | 3:4 の上下比較にして |
+| 左右比較 | 16:9 の左右比較で、左に写真 |
+| デザインのみ | 写真なしでデザインだけ、9:16 縦長 |
+| 壁紙セット | スマホ、タブレット、PC、ウォッチの壁紙を統一感のあるセットで |
+| 複数の比率 | 同じ写真で 1:1、3:4、16:9 を 1 枚ずつ |
+| 自分の文字 | タイトルは「風の通り道」、一字も変えないで |
+| 文字なし | 文字は一切入れないで |
+| 文字の言語 | 文字は英語で |
+| フォルダごと | このフォルダの写真を全部上下比較にして |
+| 前回と同じ | 前回の設定で |
+
+コマンドラインが好みなら、パラメータは上と一対一で対応します：
 
 ```text
 /xxd-panel-119 photo.jpg --mode top-bottom --size 3:4 --text prompt --locale ja-JP
-/xxd-panel-119 photo.jpg --mode left-right --size 16:9 --text prompt --locale en-US
 /xxd-panel-119 photo.jpg --mode design-only --size 9:16 --text none
+/xxd-panel-119 ./photos --mode left-right --size 16:9 --text prompt --locale en-US
 ```
 
-完全な実行契約は [SKILL.md](SKILL.md)、実行アダプターは[英語](references/xxd-panel-119-prompt.en.md)／[中国語](references/xxd-panel-119-prompt.zh-CN.md)を参照してください。
+すべてのパラメータは[パラメータ一覧](#パラメータ一覧)にあります。
 
-## 原文プロンプト · 5言語
+## よくある質問
 
-[简体中文](references/original-prompt/zh-CN.md) · [English](references/original-prompt/en.md) · [日本語](references/original-prompt/ja.md) · [한국어](references/original-prompt/ko.md) · [العربية](references/original-prompt/ar.md)
+**元の写真は必ず入りますか？** いいえ。「デザインだけ」や壁紙なら、画面全体がデザインになります。
 
-中国語ファイルはユーザー原文を逐字保存し、実行時の唯一の創作・美的権威です。他の4言語は完全で忠実な閲覧用翻訳で、生成原文の代わりにはしません。
+**文字は誰が書くのですか？** 既定では画像モデルが写真を見て書き、あなたは言語だけを選びます。自分の文字を指定すれば一字も変えずに使い、文字なしにもできます。事実に見える情報（地名、日付、数字）は、あなたが渡したものか写真に写っているものだけを使い、作りません。
 
-**特徴語：** 選択的な抽出 · 手縫いテキスタイル・コラージュ · 綿麻繊維 · 切りっぱなしアップリケ · 少量の刺繍 · 2–4色 · 非常に大きな余白 · 編集的タイポグラフィ
+**気に入らなかったら？** 「もう 1 枚」と言ってください。前の結果を直すのではなく元の写真から描き直すので、毎回違う結果になります。
 
-## クイック判定
+**まとめて処理すると混ざりませんか？** 混ざりません。写真ごとに個別に生成し、ほかの写真の色、文字、構図を借りません。設定は一括で 1 回だけ聞きます。
 
-| 気になること | Panel 119 の答え |
+**写真はどこに送られますか？** エージェントが使う画像モデルにだけ送られます。Skill はほかへアップロードせず、接続先やキーも表示しません。
+
+**ほかの Panel との関係は？** XXD Panel は番号ごとに 1 つのスタイルで、互いに独立しています。好きなものだけ入れてかまいません。写真に合うスタイルを AI に選ばせたい、複数を比べたいときは、カタログ [xxd-panel-all](https://github.com/nevertoday/xxd-panel-all) を使ってください。
+
+## 原文プロンプト
+
+このスタイルは小小東が書いた[原文プロンプト](references/original-prompt/zh-CN.md)（中国語）だけで決まります。Skill はあなたが選んだレイアウト、サイズ、文字の設定を末尾に足すだけで、要約・翻訳・書き換えはしません。
+
+参考訳（読むためのもので、画像生成には使いません）：[English](references/original-prompt/en.md) · [日本語](references/original-prompt/ja.md) · [한국어](references/original-prompt/ko.md) · [العربية](references/original-prompt/ar.md)
+
+## 画像生成の設定
+
+`gpt-image-2`（または互換モデル）を提供する OpenAI 互換 API とその API キーが必要です。次の手順は別の設定ファイルを作るので、Codex 本体の設定には影響しません：
+
+```bash
+mkdir -p ~/.xxd-imagegen
+cat > ~/.xxd-imagegen/config.toml <<'EOF'
+model_provider = "image"
+
+[model_providers.image]
+base_url = "https://api.openai.com/v1"   # または互換エンドポイント
+env_key = "XXD_IMAGE_API_KEY"
+EOF
+
+# ~/.zshrc か ~/.bashrc に書き、エージェントからも読めるようにする
+echo 'export XXD_IMAGEGEN_CODEX_DIR=~/.xxd-imagegen' >> ~/.zshrc
+echo 'export XXD_IMAGE_API_KEY=あなたのキー' >> ~/.zshrc
+```
+
+ターミナルとエージェントを開き直してから、この Skill のフォルダで一度確認します：
+
+```bash
+python3 scripts/configured_imagegen.py probe
+```
+
+`"ok":true` なら成功です。結果は使えるかどうかだけで、接続先やキーは表示されません。Codex がすでに互換 API で画像を生成できるなら、この手順は不要です。
+
+## パラメータ一覧
+
+| パラメータ | 値 |
 |---|---|
-| 抽象化しても原画像が分かるか | 主体、姿勢、物語上の関係を少数の布形状に凝縮します。 |
-| 布で画面が埋まらないか | 小さな焦点を置き、余白と布の縁と針目でリズムを作ります。 |
-| 色が重苦しくならないか | 写真由来の温かな2–4色を適度に明るく純粋にし、灰色味を除きます。 |
-| 出力方向を変えられるか | 4モードと複数サイズで、美学を変えずに交付構造だけを対応させます。 |
+| `--mode` | `top-bottom` 上下比較 · `left-right` 左右比較 · `design-only` デザインのみ · `wallpaper-pack` 4 端末の壁紙；複数選択可 |
+| `--size` | `auto` おすすめ · `source` 写真に合わせる · `1:1` `3:4` `4:3` `4:5` `5:4` `2:3` `3:2` `9:16` `16:9` `21:9` `5:7` `7:5` · ピクセル指定（例 `2160x3840`）；複数選択可 |
+| `--text` | `prompt` 写真から書く · `exact` あなたの文字（`--copy "…"` と併用） · `none` 文字なし |
+| `--locale` | 文字の言語。例：`zh-CN` `en-US` `ja-JP` `ko-KR` `ar` |
+| `--wallpaper` | `linked` 統一感のあるセット · `independent` 4 枚それぞれ独立 |
+| `--wallpaper-size` | 端末ごとのピクセル。例：`phone=1440x3200,desktop=3840x2160` |
+| `--out` | 出力先のルートを変更（既定は `~/Desktop/xxd/xxd-panel-119/`） |
+| `--prefs` | `last` 前回どおり · `edit` 前回から変更 · `new` 選び直す · `off` 今回は記録しない · `clear` 記録を消す |
 
-## 4つの出力モード
-
-- `top-bottom`：全幅の上下2領域のみ。実写を上、デザインを下に置き、各50%。
-- `left-right`：全高の左右2領域のみ。実写を左、デザインを右に置き、各50%。上下構成へ回転しません。
-- `design-only`：全画面を Panel 119 のデザイン翻訳にし、写真は見えない参照にします。
-- `wallpaper-pack`：スマートフォン、iPad、デスクトップ、時計を端末ごとに生成。`linked` または `independent` を選べます。
-
-モードと比率は複数指定できます。`1:1`、`3:4`、`4:3`、`4:5`、`5:4`、`2:3`、`3:2`、`9:16`、`16:9`、`21:9`、`5:7`、`7:5`、正確なピクセルに対応します。文字はプロンプト生成、指定文の逐字使用、なしから選べます。フォルダ入力では各画像を分離して処理し、PNGを一つの新しいタスクフォルダへ置きます。
+- 値がそろっていれば質問せず、足りないものだけを聞きます。`photo.jpg` の代わりにフォルダを渡すと一括処理になります。
+- 組み合わせは 1 枚ずつ生成します。2 モード × 3 サイズ = 6 枚で、どれも切り抜きではなくキャンバスごとに構図を組み直します。
+- 比較画像は正確に 50:50 です。通常はモデルがデザイン側だけを描き、スクリプトが元の写真をそのまま隣に並べるので、境目は中央で写真も変わりません。
+- ファイル名は `source-001-street-top-bottom-3x4-1152x1536.png` のような形式で、すべて 1 つのタスクフォルダに平置きされます。
+- 記録するのはレイアウト、サイズ、文字の方式と言語だけで、写真、文字、キーは残しません。
 
 <!-- xxd-readme-ads:start -->
 ## XXD について
